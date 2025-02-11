@@ -24,17 +24,16 @@ npm start
 ```
 
 Start prometheus server using docker compose
-
 ```
 docker compose up -d
 ```
 
-Running grafana using docker
+Setup grafana using docker
 ```
 docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
 ```
 
-Running Loki using docker
+Setup Loki using docker
 ```
 docker run -d --name=loki -p 3100:3100 grafana/loki
 ```
